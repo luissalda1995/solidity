@@ -16,6 +16,38 @@
 				"type": "error"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "FundsDeposited",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "ProfileUpdated",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -45,7 +77,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
@@ -165,7 +197,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Modifiers.sol": "Modifiers"
+			"contracts/Events.sol": "Modifiers"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -179,12 +211,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Modifiers.sol": {
-			"keccak256": "0xa5e79dd659acfc7d3e8d38df7d409b5811b0e956bc31fcbe4b59fba6aceb24db",
+		"contracts/Events.sol": {
+			"keccak256": "0xb6fb5869863a8bafd67bed09396d29a10a2220d80f15cb258be292742d0a6955",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2e467730fd1c0589e123b9c9bf588be42d57c4224cf4a9918cdbf54034d7f456",
-				"dweb:/ipfs/QmebvTdvcJZsPabjM6zv53SDSgVpDnD5fxaY1Ewiu2fRj8"
+				"bzz-raw://8b4f14f259bf81c4091c1cba6654f692c9a4a6774947fe4053fea119d29f4ea7",
+				"dweb:/ipfs/QmTcd1UWwfXHL3TL8TPXTzfzhDr6LUuavMD4AJRz8RnYMm"
 			]
 		}
 	},
