@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Payable.sol": "Mappings"
+			"contracts/Payable.sol": "Payable"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Payable.sol": {
-			"keccak256": "0xb49a63082558e246c2d6bb94a4085524f4263d48747410499109fbce6703e91f",
+			"keccak256": "0x7f5ed863455b5c3d64f173610d531ae52aedc46992dd9595ed7fcf2a0feb0d9c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1f519281abc669157e7a7720882523ca8c8fed13ebcfa9fb403a0a6c4d258d24",
-				"dweb:/ipfs/QmT7gc1V73dsfuLFkRcCPU5uoC5MP4Fi96BPxfut6Ak627"
+				"bzz-raw://23deb4967a610135cc9018b54f586f86203c080fe7c6bb9670882bc96c21e667",
+				"dweb:/ipfs/QmQFp7Mmg5mn6NhAyV6HsbGomJsXiPraJ4qyPUSsGCJ8UK"
 			]
 		}
 	},
