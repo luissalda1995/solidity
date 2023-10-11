@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Constructor.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Constructor.sol": {
+			"keccak256": "0xddf7d0558954928c11e8572bd0955b2039711e5c6f328a1de6931f48b96a7c6a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7331e2b212c53740a0bd477e0860bbc43f353f88ab34d17a687a363fd66f3fba",
+				"dweb:/ipfs/QmZcxS8Yq3hc7JZzAxuZVBLnjBeJyLS5iF2jcP9Qj2vYra"
+			]
+		}
+	},
+	"version": 1
+}
